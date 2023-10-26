@@ -1,0 +1,52 @@
+/* Navbar */
+.navbar {
+    background-color: #FFD700; /* Golden yellow background color */
+    border: none;
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+.navbar-brand {
+    color: #333; /* Dark text color */
+    font-size: 24px;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: #333; /* Dark color for menu button bars */
+}
+
+/* Center the page heading */
+.container h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #333; /* Dark text color */
+}
+
+/* Style menu items */
+.main-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.menu-item {
+    width: 30%;
+    background-color: #F5F5F5; /* Light gray background color */
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.menu-item h2 {
+    color: #333; /* Dark text color */
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .menu-item {
+        width: 100%;
+    }
+}
+
